@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="https://kit.fontawesome.com/7d2f1770da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="h4_text">
+            <h4>Create Post</h4>
+        </div>
+        <div class="main-post">
+            <div class="main-img">
+                <a href="./images/dp.jpg"><img src="./images/dp.jpg" width="40px" height="40px" alt=""></a>
+                <p>Talha Khan</p>
+            </div>
+            <div id="textArea-box">
+                <textarea placeholder="What's on your mind, Talha?" id="textArea"></textarea>
+            </div>
+            <div class="post_img">
+                <!-- <div onclick="changeBg()" id="bg">Bg</div> -->
+                <div  id="img1" onclick="putBgImageInInput(id)"><img src="./images/rose.jpg"  width="100%" height="100%" alt=""></div>
+                <div  id="img2" onclick="putBgImageInInput(id)"><img src="./images/random.jpg" width="100%" height="100%" alt=""></div>
+                <div  id="img3" onclick="putBgImageInInput(id)"><img src="./images/loud.jpg" width="100%" height="100%" alt=""></div>
+                <div  id="img4" onclick="putBgImageInInput(id)"><img src="./images/leaf.jpg" width="100%" height="100%" alt=""></div>
+                <div  id="img5" onclick="putBgImageInInput(id)"><img src="./images/lion.jpg" width="100%" height="100%" alt=""></div>
+                <div  id="img6" onclick="putBgImageInInput(id)"><img src="./images/football.jpg" width="100%" height="100%" alt=""></div>
+                <div  id="img7" onclick="putBgImageInInput(id)"><img src="./images/emoji.jpg" width="100%" height="100%" alt=""></div>
+                <div  id="img8" onclick="putBgImageInInput(id)"><img src="./images/laugh.jpg" width="100%" height="100%" alt=""></div>
+                <!-- <i onclick="closeBg()" id="close-btn" class="close hidden fa-solid fa-xmark"></i> -->
+            </div>
+            <button id="button" onclick="postingInpValue()" class="btn">Post</button>
+            <p id="error-message"></p>
+        </div>
+    </div>
+    <div id="main"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
